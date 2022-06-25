@@ -15,28 +15,3 @@
     document.querySelector('.facture_display').placeholder = `${factureTotal.toFixed(2)} $` 
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
