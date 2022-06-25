@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+    
+
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card position-relative">
+
+            <div class="card-body text-center ">
+              <h2 class="mb-3">Pourboire Calculator</h2>
+
+              <form class="form">
+
+              <div class="input-group mb-2">
+                <span class="input-group-text" id="basic-addon1">$</span>
+                <input type="number" class="form-control facture" min="0" placeholder="Facture">
+              </div>
+
+              <div class="input-group mb-2 d-flex align-items-center">
+                <span class="input-group-text me-3" id="basic-addon1">Pourboire</span>
+                <input type="range" value="0" class="form-range form-control border-0 pourboir_input" id="customRange1">
+                <span class="input-group-text  ms-3 pourboire_affiche">0%</span>
+              </div>
+
+              </form>
+
+              <hr>
+
+              <div class="hiden">
+                <div class="input-group mb-2 d-flex align-items-center">
+                    <span class="input-group-text" id="basic-addon1">Pourboire</span>
+                    <input type="number" class="form-control pourboire_display" placeholder="0,00" disabled>
+                  </div>
+    
+                  <div class="input-group mb-2 d-flex align-items-center">
+                    <span class="input-group-text" id="basic-addon1">Facture Total</span>
+                    <input type="number" class="form-control facture_display" placeholder="0,00" disabled>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+    </div>
+    
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
